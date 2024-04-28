@@ -6,7 +6,7 @@
   body {
     
     text-align: center;
-    margin: 0;
+    
   }
 header {
     height: 50px;
@@ -75,6 +75,7 @@ main {
   }
   h3 {
     text-align: center;
-    color: white;
-    text-decoration-color: white;
   }
+  .accordion-button{
+    display:block;
+}
