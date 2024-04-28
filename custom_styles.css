@@ -25,4 +25,10 @@ footer p {
 .accordion h3 {
   text-align: center;
   border: solid white 2px;
+  color: #cfb991;
+}
+
+.accordion li {
+  font-size: medium;
+  color: #cfb991;
 }/*# sourceMappingURL=custom_styles.css.map */

@@ -79,3 +79,6 @@ main {
   .accordion-button{
     display:block;
 }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(1); /* Invert the color to make it dark */
+}
