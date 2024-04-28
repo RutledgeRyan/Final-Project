@@ -1,0 +1,28 @@
+body {
+  background: #cfb991;
+  font-family: Acumin pro, serif;
+}
+
+footer {
+  margin: margin 0;
+  background: black;
+  color: #cfb991;
+  font-size: larger;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer h2 {
+  font-style: italic;
+}
+
+footer p {
+  font-size: smaller;
+  margin: 1px;
+}
+
+.accordion h3 {
+  text-align: center;
+  border: solid white 2px;
+}/*# sourceMappingURL=custom_styles.css.map */

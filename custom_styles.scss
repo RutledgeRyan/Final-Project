@@ -1,0 +1,28 @@
+$Purdue_Gold : #cfb991;
+body {
+    background: $Purdue_Gold;
+    font-family: Acumin pro, serif;
+}
+$Purdue_Black: black;
+$Footer_margin: margin 0; 
+footer{
+    margin: $Footer_margin;
+    background: $Purdue_Black;
+    color: $Purdue_Gold;
+    font-size: larger;
+    font-weight: 400 ;
+    text-align: center;
+    margin-top: 50px;
+}
+footer h2{
+    font-style: italic;
+}
+footer p{ 
+font-size:smaller;
+margin: 1px;
+}
+.accordion h3{
+    text-align: center;
+    border: solid white 2px;
+
+}

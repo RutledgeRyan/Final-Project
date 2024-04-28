@@ -17,8 +17,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Your custom JavaScript -->
     <script src="enabler.js" defer></script>
+    <link rel="stylesheet" 
+    type="text/css"
+    href="custom_styles.css">
+
+    
 </head>
-<body style="font-family: Acumin pro, serif; background-color: #CEB888;">
+<body>
 
     <nav class="navbar navbar-expand-lg" style="padding: 8px; background-color: black;">
         <div class="container-fluid">
@@ -75,22 +80,57 @@
     
             <div class="accordion" id="accordionExample" style="margin: 50px; background: black; color: #CEB888;">
 
-                <h1 style="margin-bottom: 50px; margin-top: 50px; text-align: center;">Purdue University of Indianapolis CIT Concentrations</h1>
-
+                <h1 style="margin-bottom: 20px; margin-top: 50px; text-align: center;">Purdue University of Indianapolis CIT Concentrations</h1>
+                <h4 style="margin-bottom: 20px; text-align: center;">*Core Course <br>**Offered One Semester</h4>
                
                 <div class="accordion-item" >
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true"
                             aria-controls="collapseOne" style="background-color: #555960; color: white; font-size: larger;">
-                            Web/Application Design and Development
+                            Web/Software Design and Development
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show"
+                    <div id="collapseOne" class="accordion-collapse collapse"
                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #c4bfc0; color: black;">
-                            The W3C Web Accessibility Initiative (WAI) develops standards and
-                            support materials to help you understand and implement accessibility.
+                        <div class="accordion-body" style="background-color: black; color: white;">                            
+                            <h3>2nd Semester (SPRING)</h3>
+                            <ul>
+                                <li>CIT 21200 Website Design</li>                                
+                            </ul>
+                            <h3>3rd Semester (FALL)</h3>
+                            <ul>
+                                <li>CIT 21300 Systems Analysis and Design</li>
+                                <li>CIT 21400 Database Fundamentals*</li>
+                                <li>CIT 200-level Programming*</li>
+                            </ul>
+                            <h3>4th Semester (SPRING)</h3>
+                            <ul>
+                                <li>CIT 21500 Web Programming</li>
+                            </ul>
+                            <h3>5th Semester (FALL)</h3>
+                            <ul>
+                                <li>CIT 31200 Advanced Website Design</li>
+                                <li>CIT 31300 Commercial Website Development</li>
+
+                            </ul>
+                            <h3>6th Semester (SPRING)</h3>
+                            <ul>
+                                <li>CGT 49900 Principles of Creative Design for Web Developers</li>
+                                <li>OLS 37100 Project Management</li>
+                            </ul>
+                            <h3>7th Semester (FALL)</h3>
+                            <ul>
+                                <li>CIT 37400 Systems and Database Analysis</li>
+                                <li>CIT 41100 iOS Application Development</li>
+                                or
+                                <li>CIT 41300 Android Application Development</li>
+                            </ul>
+                            <h3>8th Semester (SPRING)</h3>   
+                            <ul>
+                                <li>CIT 41200 Data-Driven Cloud Applications</li>
+                                <li>CIT 43600 e-Commerce Website Development</li>
+                            </ul>                         
                         </div>
                     </div>
                 </div>
@@ -99,23 +139,135 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo" style="background-color: black; color: white;">
-                                    4 tenets of web accessibility
+                                    aria-expanded="false" aria-controls="collapseTwo" style="background-color: #555960; color: white; font-size: larger;">
+                                    Networking Systems
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body" style="background-color: black; color: white;">
-                                    <ol>
-                                        <li> <b>Perceivable</b> by at least one sense</li>
-
-                                        <li> <b>Operable</b>, using keyboard, mouse, voice...</li>
-
-                                        <li> <b>Understandable</b>, it should make sense to the users</li>
-
-                                        <li> <b>Robust</b>, content should use web standards compatible with
-                                            different browsers, currently and in the foreseeable future</li>
-                                    </ol>
+                                    <h3>3rd Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 20700 Data Communications*</li>
+                                        <li>CIT 17600 Information Technology Architectures*</li>
+                                    </ul>
+                                    <h3>4th Semester (SPRING)</h3>
+                                    <ul>
+                                        <li>CIT 20300 Information Security Fundamentals*</li>
+                                        <li>CIT 20200 Networking Fundamentals*</li>
+                                        <li>CIT 30900 Cybersecurity and Network Programming</li>
+                                    </ul>
+                                    <h3>5th Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 32700 Wireless Communications **</li>
+                                    </ul>
+                                    <h3>6th Semester (SPRING)</h3>
+                                    <ul>
+                                        <li>CIT 35600 Network O/S Administration</li>
+                                        <li>CIT 40200 Design and Implementation of Local Area Networks</li>
+                                        <li>CIT 40600 Advanced Network Security</li>
+                                    </ul>
+                                    <h3>7th Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 38100 Unix Programming and Adminstration</li>
+                                    </ul>
+                                    <h3>8th Semester (SPRING)</h3>   
+                                    <ul>
+                                        <li>CIT 41500 Advanced Network Administration</li>
+                                        <li>CIT 44000 Communication Network Design **</li>
+                                    </ul>                         
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree" style="background-color: #555960; color: white; font-size: larger;">
+                                    Data Management
+                                </button>
+                            </h1>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: black; color: white;">
+                                    <h3>2nd Semester (SPRING)</h3>
+                                    <ul>
+                                        <li>CIT 17600 Information Technology Architectures*</li>
+                                        <li>CIT 21400 Introduction to Data Management</li>                              
+                                    </ul>
+                                    <h3>3rd Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 20700 Data Communications*</li>
+                                        <li>CIT 200-level Programming*</li>
+                                    </ul>
+                                    <h3>4th Semester (SPRING)</h3>
+                                    <ul>
+                                        <li>CIT 20300 Information Security Fundamentals*</li>
+                                        <li>CIT 27000 Java Programming</li>
+                                    </ul>
+                                    <h3>5th Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 30400 Database Programming</li>
+                                    </ul>
+                                    <h3>6th Semester (SPRING)</h3>
+                                    <ul>
+                                        <li>CIT 34400 Database Security**</li>
+                                        <li>CIT 38800 Java Programming II</li>
+                                    </ul>
+                                    <h3>7th Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 44400 Advanced Database Design**</li>
+                                        <li>CIT 47900 Database Implementation and Administration**</li>
+                                    </ul>
+                                    <h3>8th Semester (SPRING)</h3>   
+                                    <ul>
+                                        <li>CIT 42100 Big Data Analytics**</li>
+                                        <li>CIT Web/Database Selective</li>
+                                    </ul>                         
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour" style="background-color: #555960; color: white; font-size: larger;">
+                                    Information Security
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background-color: black; color: white;">
+                                    <h3>3rd Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 20700 Data Communications*</li>
+                                        <li>CIT 17600 Information Technology Architectures*</li>
+                                    </ul>
+                                    <h3>4th Semester (SPRING)</h3>
+                                    <ul>
+                                        <li>CIT 20300 Information Security Fundamentals*</li>
+                                        <li>CIT 20200 Networking Fundamentals*</li>
+                                        <li>CIT 30900 - Cybersecurity and Network Programming</li>
+                                    </ul>
+                                    <h3>5th Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 35600 Network O/S Administration</li>
+                                        <li>CIT 40600 Advanced Network Security</li>
+                                    </ul>
+                                    <h3>6th Semester (SPRING)</h3>
+                                    <ul>
+                                        <li>CIT 41500 Advanced Network Administration</li>
+                                    </ul>
+                                    <h3>7th Semester (FALL)</h3>
+                                    <ul>
+                                        <li>CIT 43100 Applied Security Protocols**</li>
+                                        <li>CIT 45100 IT Risk Assessment**</li>
+                                    </ul>
+                                    <h3>8th Semester (SPRING)</h3>   
+                                    <ul>
+                                        <li>CIT 42000 Digital Forensics**</li>
+                                        <li>CIT 46000 Wireless Security**</li>
+                                    </ul>                         
                                 </div>
                             </div>
                         </div>
@@ -135,7 +287,15 @@
                                         
                                     </div>
                                     <div class="flip-card-back">
-                                        <p> MMEEEEEPPPP</p>
+                                        <ul>
+                                            <li>Network Technician</li>
+                                            <li>Network Administrator</li>
+                                            <li>Net  Support Specialist</li>
+                                            <li>Field Service Engineer</li>
+                                            <li>Network Architect</li>
+                                            <li>Wireless Engineer</li>
+                                            <li>Cloud Computing Engineer</li>                                    
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +316,15 @@
                                         
                                     </div>
                                     <div class="flip-card-back">
-                                        <p> MMEEEEEPPPP</p>
+                                        <ul>
+                                            <li>Data engineer</li>
+                                            <li>IT project manager</li>
+                                            <li>Database administrator</li>
+                                            <li>Computer systems analyst</li>
+                                            <li>Data analyst</li>
+                                            <li>Database Architect</li>
+                                            <li>IT support analyst</li>                                    
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -236,4 +404,59 @@
     
 
 </body>
+<footer>
+    <h2>A full list of careers you can access in Indeed</h2>
+    <p>
+Software Developer /
+Network Administrator /
+Database Administrator /
+Cybersecurity Analyst /
+Systems Analyst /
+Web Developer /
+IT Manager /
+Computer Systems Engineer /
+Cloud Solutions Architect /
+IT Consultant /
+Data Scientist /
+Machine Learning Engineer /
+AI Developer /
+DevOps Engineer /
+IT Support Specialist /
+Network Engineer /
+Information Security Analyst /
+Computer Programmer /
+Systems Administrator /
+UX/UI Designer /
+Mobile App Developer /
+Quality Assurance Engineer /
+Blockchain Developer /
+Computer Hardware Engineer /
+IT Project Manager /
+Big Data Engineer /
+IT Auditor /
+Technical Writer (for IT documentation) /
+IT Trainer /
+IT Sales Professional /
+Data Analyst /
+Cloud Engineer /
+Robotics Engineer /
+IT Compliance Analyst /
+Penetration Tester (Ethical Hacker) /
+IT Risk Manager /
+Computer Forensics Expert /
+Virtual Reality Developer /
+Augmented Reality Developer /
+Information Systems Manager /
+IT Business Analyst /
+IT Procurement Specialist /
+IT Recruiter /
+IT Policy Analyst /
+IT Strategy Consultant /
+IT Architect /
+IT Researcher /
+IT Lawyer (specializing in technology law) /
+IT Vendor Manager /
+IT Asset Manager
+    </p>
+</footer>
 </html>
