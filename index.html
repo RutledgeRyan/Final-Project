@@ -54,7 +54,7 @@
         </div>
     </nav>
 
-    
+    <!--Bootstrap Carousel to display different portions of Purdue and CIT images to reflect what to expect in this IT REALM, this form of the Carousel will not have a slider, but will automatically slide when the user does not have the cursor over the carousel-->
         <div class="col carousel-area" style="border: black solid 3px; margin-left: 0; margin-right: 0;">
             <div id="carouselAccessibility" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -77,7 +77,7 @@
         </div>
     </div>
         </div>
-    
+            <!--This Bootstrap Accordion displays not only the majors, but the respective courses for each concentration and the terms and availabilities of the courses per semester. A modal can be added to the courses to display information about each course.-->
             <div class="accordion" id="accordionExample" style="margin: 50px; background: black; color: #CEB888;">
 
                 <h1 style="margin-bottom: 20px; margin-top: 50px; text-align: center;">Purdue University of Indianapolis CIT Concentrations</h1>
@@ -96,40 +96,70 @@
                         <div class="accordion-body" style="background-color: black; color: white;">                            
                             <h3>2nd Semester (SPRING)</h3>
                             <ul>
-                                <li>CIT 21200 Website Design</li>                                
+                                <div class="modal-body">
+                                <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/21200" data-bs-toggle="tooltip" title="This course is designed to give students an introduction to web site design and site creation. The course involves learning current standard XHTML fundamentals, CSS and design concepts. The proper design approach for constructing Web sites and related techniques will also be covered."> CIT 21200 Website Design</a></li>
+                            </div>                              
                             </ul>
+                        
                             <h3>3rd Semester (FALL)</h3>
                             <ul>
-                                <li>CIT 21300 Systems Analysis and Design</li>
-                                <li>CIT 21400 Database Fundamentals*</li>
-                                <li>CIT 200-level Programming*</li>
+                                <!--Use of modal for both hover and clickable links to display the content of each course and a representative course layout provided by the former IUPUI Courses and Concentrations-->
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/21300" data-bs-toggle="tooltip" title="This course provides students with the concepts, processes, and tools of systems analysis and systems design. Object-oriented methods and tools are utilized with a focus on developing web-based interfaces and prototypes."> CIT 21300 Systems Analysis and Design</a></li>
+                                </div>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/21400" data-bs-toggle="tooltip" title="Introduction to basic database development concepts. Extensive exploration of data manipulation using a relational DBMS and SQL. Students develop database applications using the most current database technologies."> CIT 21400 Database Fundamentals*</a></li>
+                                </div>
+                                <div class="modal-body">
+                                    <li><a href="#" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 200-level Programming*</a></li>
+                                </div>
                             </ul>
                             <h3>4th Semester (SPRING)</h3>
                             <ul>
-                                <li>CIT 21500 Web Programming</li>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/21500" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 21500 Web Programming</a></li>
+                                </div>
                             </ul>
                             <h3>5th Semester (FALL)</h3>
                             <ul>
-                                <li>CIT 31200 Advanced Website Design</li>
-                                <li>CIT 31300 Commercial Website Development</li>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/31200" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 31200 Advanced Website Design</a></li>
+                                </div>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/31300" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 31300 Commercial Website Development</a></li>
+                                </div>
 
                             </ul>
                             <h3>6th Semester (SPRING)</h3>
                             <ul>
-                                <li>CGT 49900 Principles of Creative Design for Web Developers</li>
-                                <li>OLS 37100 Project Management</li>
+                                <div class="modal-body">
+                                    <li><a href="#" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CGT 49900 Principles of Creative Design for Web Developers</a></li>
+                                </div>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/ols/37100" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> OLS 37100 Project Management</a></li>
+                                </div>
                             </ul>
                             <h3>7th Semester (FALL)</h3>
                             <ul>
-                                <li>CIT 37400 Systems and Database Analysis</li>
-                                <li>CIT 41100 iOS Application Development</li>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/37400" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 37400 Systems and Database Analysis</a></li>
+                                </div>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/41100" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 41100 iOS Application Development</a></li>
+                                </div>
                                 or
-                                <li>CIT 41300 Android Application Development</li>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/41300" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 41300 Android Application Development</a></li>
+                                </div>
                             </ul>
                             <h3>8th Semester (SPRING)</h3>   
                             <ul>
-                                <li>CIT 41200 Data-Driven Cloud Applications</li>
-                                <li>CIT 43600 e-Commerce Website Development</li>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/41200" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 41200 Data-Driven Cloud Applications</a></li>
+                                </div>
+                                <div class="modal-body">
+                                    <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/43600" data-bs-toggle="tooltip" title="ELECTIVE COURSE."> CIT 43600 e-Commerce Website Development</a></li>
+                                </div>
                             </ul>                         
                         </div>
                     </div>
@@ -273,7 +303,7 @@
                         </div>
             </div>
         <div class="container-fluid">
-            
+            <!--To display the main concentrations as seen on the banner, I decided to use flip cards that when hovered over, would display specific careers for each concentration-->
         <div class="row justify-content-center">
             <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-10 col-sm-10" style=" border-radius: 20%; background-color: black; margin: 20px;">
                 <div class="container">
@@ -404,6 +434,7 @@
     
 
 </body>
+<!--The Footer utilizes SCSS formatting and Preprocessors to display a corrective font and formatting for all pages that will contain the id Footer. The footer holds 50 career opportunities for prospective CIT students.-->
 <footer>
     <h2>A full list of careers you can access in Indeed</h2>
     <p>

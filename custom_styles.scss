@@ -1,3 +1,5 @@
+/* scss styling and preprocessors that will be added to the body, footer and other portions of the html file. Specifically Black and Gold Coloring for Purdue University and formatting for repetive structures*/
+
 $Purdue_Gold : #cfb991;
 body {
     background: $Purdue_Gold;
@@ -29,5 +31,8 @@ margin: 1px;
 }
 .accordion li{
     font-size: medium;
+    color: $Purdue_Gold;
+}
+.modal-body a{
     color: $Purdue_Gold;
 }

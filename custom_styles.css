@@ -1,3 +1,4 @@
+/* scss styling and preprocessors that will be added to the body, footer and other portions of the html file. Specifically Black and Gold Coloring for Purdue University and formatting for repetive structures*/
 body {
   background: #cfb991;
   font-family: Acumin pro, serif;
@@ -30,5 +31,9 @@ footer p {
 
 .accordion li {
   font-size: medium;
+  color: #cfb991;
+}
+
+.modal-body a {
   color: #cfb991;
 }/*# sourceMappingURL=custom_styles.css.map */
