@@ -90,3 +90,39 @@ main {
   margin-bottom: 50px;
   
 }
+@media (max-width: 1560px) {
+  .carousel-area {
+    height: 20%;
+}
+    .carousel-item img {
+        width: 100%; /* Make the carousel images full width */
+        height: auto; /* Automatically adjust the height */
+    }
+    
+    
+    .buttonContainer {
+      display: flex;
+      margin-left: 1px;
+      width: auto;
+    }
+    .nav img{
+      display: flex;
+      width: 200px
+    };
+}
+@media (max-width: 768px) {
+  .carousel-area {
+    height: 20%;
+}
+    .carousel-item img {
+        width: 100%; /* Make the carousel images full width */
+        height: auto; /* Automatically adjust the height */
+    }
+    
+    
+    .buttonContainer {
+      display: flex;
+      margin-left: 1px;
+      width: auto;
+    }
+}
