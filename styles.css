@@ -82,3 +82,11 @@ main {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   filter: invert(1); /* Invert the color to make it dark */
 }
+.buttonContainer {
+  display: flex;
+  margin-left: 800px;
+  margin-right: 800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}

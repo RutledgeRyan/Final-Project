@@ -103,7 +103,7 @@
                         
                             <h3>3rd Semester (FALL)</h3>
                             <ul>
-                                <!--Use of modal for both hover and clickable links to display the content of each course and a representative course layout provided by the former IUPUI Courses and Concentrations-->
+                                <!--Use of Bootstrap modal for both hover and clickable links to display the content of each course on hover and a representative course layout provided by the former IUPUI Courses and Concentrations upon clicking-->
                                 <div class="modal-body">
                                     <li><a href="https://et.iupui.edu/departments/cigt/courses/cit/21300" data-bs-toggle="tooltip" title="This course provides students with the concepts, processes, and tools of systems analysis and systems design. Object-oriented methods and tools are utilized with a focus on developing web-based interfaces and prototypes."> CIT 21300 Systems Analysis and Design</a></li>
                                 </div>
@@ -431,7 +431,21 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="buttonContainer">
+    <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: black; color: #CEB888;">
+          <h2 style="text-align: center;">Which Concentration would you like to know more about?</h2>
+        </a>
+      <!--Bootstrap Drop Down Menu to Display the Current Concentrations that are provided at IUPI that can be used as guidelines to follow for prospective PUI students attending in the Fall. This is used to access the current information that IUPUI has on the CIT Concentrations-->
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://et.iupui.edu/departments/cigt/programs/cit/undergrad/bscit/software">Web/Software Design and Development</a></li>
+          <li><a class="dropdown-item" href="https://et.iupui.edu/departments/cigt/programs/cit/undergrad/bscit/networking">Networking Systems</a></li>
+          <li><a class="dropdown-item" href="https://et.iupui.edu/departments/cigt/programs/cit/undergrad/bscit/data">Data Management</a></li>
+          <li><a class="dropdown-item" href="https://et.iupui.edu/departments/cigt/programs/cit/undergrad/bscit/security">Information Security</a></li>
+        </ul>
+      </div>
+    </div>
 
 </body>
 <!--The Footer utilizes SCSS formatting and Preprocessors to display a corrective font and formatting for all pages that will contain the id Footer. The footer holds 50 career opportunities for prospective CIT students.-->
